@@ -6,7 +6,7 @@ import { GeneratedCopy } from '../types';
 const AIDemo: React.FC = () => {
   const [niche, setNiche] = useState('Real Estate');
   const [audience, setAudience] = useState('Agency Owners');
-  const [goal, setGoal] = useState('Recruit Affiliates');
+  const [goal, setGoal] = useState('Sign up for GoHighLevel');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<GeneratedCopy | null>(null);
 
@@ -82,7 +82,7 @@ const AIDemo: React.FC = () => {
                     onChange={(e) => setGoal(e.target.value)}
                     className="w-full px-6 py-4 bg-slate-900/50 rounded-2xl border border-white/5 focus:border-purple-500/50 focus:ring-2 focus:ring-purple-500/20 outline-none transition-all text-white font-semibold appearance-none cursor-pointer"
                   >
-                    <option value="Recruit Affiliates">RECRUIT AFFILIATES</option>
+                    <option value="Sign up for GoHighLevel">SIGN UP FOR GOHIGHLEVEL</option>
                     <option value="SaaS Trial">COLLECT SAAS TRIALS</option>
                     <option value="Lead Magnet">PROMOTE LEAD MAGNET</option>
                   </select>
@@ -149,7 +149,7 @@ const AIDemo: React.FC = () => {
                          rel="noopener noreferrer"
                          className="px-6 py-3 bg-cyan-500 text-slate-950 font-black rounded-xl text-center shadow-lg hover:scale-105 transition-all text-sm uppercase"
                        >
-                         Try on GoHighLevel
+                         Sign Up Now
                        </a>
                        <div className="p-4 rounded-2xl bg-white/5 border border-white/5 max-w-sm">
                           <p className="text-[10px] text-white font-black uppercase tracking-widest mb-2 flex items-center gap-2">

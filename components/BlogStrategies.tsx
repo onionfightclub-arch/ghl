@@ -12,19 +12,19 @@ const blogIdeas = [
     ]
   },
   {
-    title: "How to Build a $10k/Month Recurring Income as a GHL Affiliate using AI",
-    summary: "A step-by-step blueprint for recruiting high-quality referrals. Focuses on using AI for personalized cold outreach and content distribution at scale.",
+    title: "How to Build a $10k/Month Recurring Income as a GHL User using AI",
+    summary: "A step-by-step blueprint for scaling your agency services. Focuses on using AI for personalized outreach and service delivery at scale.",
     prompts: [
-      "Create a detailed 30-day roadmap for a new GoHighLevel affiliate to reach $10k MRR using AI tools for content creation.",
-      "Write a series of 5 personalized cold email templates using AI to recruit digital marketing agencies to the GoHighLevel platform.",
-      "Generate a script for a 60-second YouTube Short explaining the 40% recurring commission structure of GHL."
+      "Create a detailed 30-day roadmap for a new GoHighLevel user to reach $10k MRR using AI tools for content creation.",
+      "Write a series of 5 personalized outreach email templates using AI to attract clients to your GoHighLevel powered agency.",
+      "Generate a script for a 60-second YouTube Short explaining the core efficiency features of GHL."
     ]
   },
   {
-    title: "Hyper-Personalized Outreach: Using AI to Recruit High-Value Referrals",
-    summary: "Learn how to move beyond generic templates. Use AI to analyze potential leads and craft high-converting, personalized messages that position GoHighLevel as the specific solution to their unique business challenges.",
+    title: "Hyper-Personalized Outreach: Using AI to Land High-Value Clients",
+    summary: "Learn how to move beyond generic templates. Use AI to analyze potential clients and craft high-converting, personalized messages that position GoHighLevel as the specific solution to their unique business challenges.",
     prompts: [
-      "Analyze this company's website description: [Insert Text]. Identify their top 3 potential marketing inefficiencies and write a personalized email introducing GoHighLevel as the solution.",
+      "Analyze this company's website description: [Insert Text]. Identify their top 3 potential marketing inefficiencies and write a personalized email introducing your GHL-powered solution.",
       "Draft a DM for an agency owner. Reference a generic pain point like 'manual lead follow-up' and explain how GHL's AI features could automate that specific workflow for their niche.",
       "Create a 'Problem/Solution' matrix for the Real Estate industry and generate 5 punchy opening lines for cold outreach that mention AI-driven efficiency."
     ]
@@ -39,17 +39,17 @@ const blogIdeas = [
     ]
   },
   {
-    title: "Recruiting Agency Owners: The Psychological Trigger of 'The AI-Efficiency' Dream",
-    summary: "A deep dive into sales psychology. Learn how to pitch GoHighLevel not as a tool, but as the foundation for an agency that runs itself using AI.",
+    title: "Agency Owners: The Psychological Trigger of 'The AI-Efficiency' Dream",
+    summary: "A deep dive into sales psychology. Learn how to position GoHighLevel not as a tool, but as the foundation for an agency that runs itself using AI.",
     prompts: [
       "Analyze the top 5 pain points of agency owners and map them to GoHighLevel + AI solutions.",
-      "Write a persuasive sales page headline and sub-headline for an affiliate landing page focusing on 'Freedom through AI Automation'.",
+      "Write a persuasive sales page headline and sub-headline for a landing page focusing on 'Freedom through AI Automation'.",
       "Create a 'Day in the Life' story of an agency owner who switched to GHL and cut their workload by 70% using automation."
     ]
   },
   {
     title: "Beyond Chatbots: Using AI for Predictive Analytics in GoHighLevel",
-    summary: "Advanced content for tech-savvy affiliates. Discusses using data science to predict client churn and optimize ad spend within the GHL dashboard.",
+    summary: "Advanced content for tech-savvy users. Discusses using data science to predict client churn and optimize ad spend within the GHL dashboard.",
     prompts: [
       "Explain in simple terms how an agency can use AI to analyze GoHighLevel CRM data to predict which leads are most likely to close.",
       "Generate a technical tutorial outline for setting up an AI-driven dashboard within a GHL sub-account.",
@@ -68,11 +68,11 @@ const BlogStrategies: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-24">
           <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full glass-dark border border-amber-500/30 text-amber-400 text-xs font-black uppercase tracking-[0.2em] mb-10 shadow-[0_0_15px_rgba(245,158,11,0.2)]">
-            <i className="fa-solid fa-crown"></i> ELITE CONTENT BLUEPRINTS
+            <i className="fa-solid fa-crown"></i> ELITE STRATEGY BLUEPRINTS
           </div>
           <h2 className="text-4xl md:text-6xl font-black mb-8 leading-tight">Master the <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">Organic Funnel</span></h2>
           <p className="text-slate-400 text-xl font-medium">
-            Proprietary content frameworks designed to convert cold traffic into lifetime recurring revenue using the power of AI.
+            Proprietary content frameworks designed to convert traffic into long-term value using the power of AI.
           </p>
         </div>
 

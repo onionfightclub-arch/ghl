@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           <div className="space-y-10">
             <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full glass-dark border border-cyan-500/30 text-cyan-400 text-xs font-black tracking-widest uppercase">
               <span className="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,1)]"></span>
-              40% LIFETIME RECURRING REVENUE
+              ALL-IN-ONE AGENCY AUTOMATION
             </div>
             
             <h1 className="text-6xl lg:text-8xl font-black leading-[1.05] tracking-tighter text-white">
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out skew-x-12"></div>
                 <span className="relative z-10 flex items-center gap-3">
                   <i className="fa-solid fa-rocket group-hover:animate-bounce"></i>
-                  BECOME AN AFFILIATE
+                  SIGN UP FOR GOHIGHLEVEL
                 </span>
               </a>
             </div>

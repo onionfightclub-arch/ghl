@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <div>
             <h5 className="font-black text-white mb-8 uppercase text-xs tracking-[0.4em] text-cyan-500">Infrastructure</h5>
             <ul className="space-y-5 text-slate-500 text-sm font-bold">
-              <li><a href={affiliateLink} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors uppercase tracking-widest">Affiliate Node</a></li>
+              <li><a href={affiliateLink} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors uppercase tracking-widest">Platform Portal</a></li>
               <li><a href="#features" className="hover:text-cyan-400 transition-colors uppercase tracking-widest">Feature List</a></li>
               <li><a href={affiliateLink} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors uppercase tracking-widest">Asset Library</a></li>
             </ul>

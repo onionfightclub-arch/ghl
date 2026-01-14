@@ -7,14 +7,14 @@ const features = [
     color: "from-purple-500 to-indigo-600",
     shadow: "shadow-purple-500/20",
     title: "AI Strategy Engine",
-    description: "Harness Gemini-powered insights to pinpoint hyper-profitable niches for your agency outreach."
+    description: "Harness Gemini-powered insights to pinpoint hyper-profitable niches for your agency's next big move."
   },
   {
     icon: "fa-solid fa-chart-pie",
     color: "from-cyan-400 to-blue-600",
     shadow: "shadow-cyan-500/20",
     title: "Recurring Ecosystem",
-    description: "Build a bulletproof portfolio with 40% monthly commissions that compound into financial freedom."
+    description: "Build a bulletproof portfolio with all-in-one tools that scale your business value automatically."
   },
   {
     icon: "fa-solid fa-microchip",
@@ -58,7 +58,7 @@ const Features: React.FC = () => {
                 rel="noopener noreferrer"
                 className="mt-8 pt-6 border-t border-white/5 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity"
               >
-                <span className="text-xs font-black text-cyan-400 tracking-widest uppercase">Learn More</span>
+                <span className="text-xs font-black text-cyan-400 tracking-widest uppercase">Sign Up Now</span>
                 <i className="fa-solid fa-arrow-right text-cyan-400"></i>
               </a>
             </div>

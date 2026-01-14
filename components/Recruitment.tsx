@@ -13,10 +13,10 @@ const Recruitment: React.FC = () => {
           <div className="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-purple-600/10 rounded-full blur-[100px]"></div>
           
           <div className="flex-1 z-10 space-y-10 text-center lg:text-left">
-            <div className="inline-block px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-black uppercase tracking-[0.2em]">Tier-2 Expansion Active</div>
-            <h3 className="text-4xl md:text-7xl font-black text-white leading-tight">Master the <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Tier-2 Network</span></h3>
+            <div className="inline-block px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-black uppercase tracking-[0.2em]">Enterprise Mode Active</div>
+            <h3 className="text-4xl md:text-7xl font-black text-white leading-tight">Master the <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Agency Ecosystem</span></h3>
             <p className="text-slate-400 text-xl font-medium leading-relaxed">
-              Activate the passive override. Earn an additional <span className="text-white font-black">5% monthly commission</span> from the volume of every referral you recruit. Build your own multi-level agency ecosystem.
+              Activate your platform control center. Secure your <span className="text-white font-black">free trial</span> and unlock the volume of the world's most powerful marketing automation tool. Build your own autonomous agency ecosystem.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -46,7 +46,7 @@ const Recruitment: React.FC = () => {
               
               <h4 className="text-3xl font-black text-white mb-4">READY TO SCALE?</h4>
               <p className="text-slate-500 mb-10 text-sm font-bold uppercase tracking-widest leading-relaxed">
-                Skip the queue. Initialize your high-level dashboard and start building your recurring revenue portfolio today.
+                Skip the queue. Initialize your high-level dashboard and start building your agency portfolio today.
               </p>
               
               <a 
@@ -55,7 +55,7 @@ const Recruitment: React.FC = () => {
                 rel="noopener noreferrer"
                 className="block w-full py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-black text-xl rounded-2xl transition-all shadow-[0_0_30px_rgba(34,211,238,0.4)] hover:shadow-[0_0_50px_rgba(34,211,238,0.6)] active:scale-95 uppercase tracking-tighter"
               >
-                INITIALIZE ACCESS NOW
+                SIGN UP FOR GOHIGHLEVEL
               </a>
               
               <div className="flex items-center justify-center gap-2 mt-8 opacity-40">

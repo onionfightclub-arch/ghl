@@ -7,7 +7,7 @@ const steps = [
     color: "text-cyan-400",
     glow: "shadow-cyan-400/50",
     title: "Secure Node",
-    description: "Integrate with our elite affiliate network and activate your high-level dashboard and advanced automation workspace."
+    description: "Integrate with our elite network and activate your high-level dashboard and advanced automation workspace."
   },
   {
     number: "02",
@@ -28,7 +28,7 @@ const steps = [
     color: "text-pink-400",
     glow: "shadow-pink-400/50",
     title: "Harvest Alpha",
-    description: "Monitor your compounding 40% recurring revenue stream as your digital empire expands."
+    description: "Monitor your compounding revenue stream as your digital empire expands through the GHL platform."
   }
 ];
 
@@ -41,7 +41,7 @@ const HowItWorks: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-24">
           <h2 className="text-purple-400 font-black uppercase tracking-[0.4em] text-xs mb-6">Mission Protocol</h2>
           <h3 className="text-4xl md:text-6xl font-black text-white mb-6">The Path to <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">Autonomy</span></h3>
-          <p className="text-slate-400 text-lg font-medium">Four stages of digital evolution from affiliate to empire builder.</p>
+          <p className="text-slate-400 text-lg font-medium">Four stages of digital evolution from user to empire builder.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 relative">
