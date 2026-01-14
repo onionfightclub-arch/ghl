@@ -1,7 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  onLogoClick: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ onLogoClick }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const affiliateLink = "https://www.gohighlevel.com/?fp_ref=x6z16";
 
@@ -16,8 +20,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'glass-dark py-3 border-b border-white/5 shadow-2xl' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-[0_0_20px_rgba(34,211,238,0.4)] rotate-3">
+        <button 
+          onClick={onLogoClick}
+          className="flex items-center gap-3 group text-left"
+        >
+          <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-[0_0_20px_rgba(34,211,238,0.4)] rotate-3 group-hover:rotate-0 transition-transform">
             <i className="fa-solid fa-bolt-lightning text-xl"></i>
           </div>
           <div>
@@ -26,23 +33,23 @@ const Navbar: React.FC = () => {
             </span>
             <p className="text-[9px] uppercase tracking-[0.3em] text-cyan-400/80 font-bold leading-none mt-1">Next-Gen Affiliate Portal</p>
           </div>
-        </div>
+        </button>
         
         <div className="hidden lg:flex items-center gap-8 font-semibold text-slate-400">
-          <a href="#features" className="hover:text-cyan-400 transition-colors relative group">
+          <a href="#features" className="hover:text-cyan-400 transition-colors relative group" onClick={(e) => { if (window.location.hash) return; onLogoClick(); }}>
             Features
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
           </a>
-          <a href="#how-it-works" className="hover:text-cyan-400 transition-colors relative group">
+          <a href="#how-it-works" className="hover:text-cyan-400 transition-colors relative group" onClick={(e) => { if (window.location.hash) return; onLogoClick(); }}>
             Process
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
           </a>
-          <a href="#ai-lab" className="hover:text-purple-400 transition-colors relative group">
-            AI Lab
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-400 transition-all group-hover:w-full"></span>
-          </a>
-          <a href="#blog-strategies" className="hover:text-cyan-400 transition-colors relative group">
+          <a href="#blog-strategies" className="hover:text-cyan-400 transition-colors relative group" onClick={(e) => { if (window.location.hash) return; onLogoClick(); }}>
             Strategies
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
+          </a>
+          <a href="#contact" className="hover:text-cyan-400 transition-colors relative group" onClick={(e) => { if (window.location.hash) return; onLogoClick(); }}>
+            Contact
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
           </a>
         </div>

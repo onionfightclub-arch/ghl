@@ -4,9 +4,9 @@ import React from 'react';
 const blogIdeas = [
   {
     title: "The Future of Agency Growth: Why GoHighLevel + AI is the Ultimate Power Couple",
-    summary: "Explore how integrating Google Gemini with GoHighLevel transforms a standard CRM into an autonomous agency engine. This post positions the 'AI-First Agency' as the only way to survive in 2024.",
+    summary: "Explore how integrating advanced AI with GoHighLevel transforms a standard CRM into an autonomous agency engine. This post positions the 'AI-First Agency' as the only way to thrive.",
     prompts: [
-      "Act as a SaaS thought leader. Write a 1,000-word blog post explaining the synergy between GoHighLevel's CRM and Gemini AI's generative capabilities.",
+      "Act as a SaaS thought leader. Write a 1,000-word blog post explaining the synergy between GoHighLevel's CRM and generative AI capabilities.",
       "Generate a list of 10 specific use cases for AI within a GoHighLevel workflow, such as lead scoring and sentiment analysis.",
       "Write a catchy LinkedIn post promoting this article that targets frustrated agency owners looking for efficiency."
     ]
@@ -16,13 +16,13 @@ const blogIdeas = [
     summary: "A step-by-step blueprint for recruiting high-quality referrals. Focuses on using AI for personalized cold outreach and content distribution at scale.",
     prompts: [
       "Create a detailed 30-day roadmap for a new GoHighLevel affiliate to reach $10k MRR using AI tools for content creation.",
-      "Write a series of 5 personalized cold email templates using Gemini to recruit digital marketing agencies to the GoHighLevel platform.",
+      "Write a series of 5 personalized cold email templates using AI to recruit digital marketing agencies to the GoHighLevel platform.",
       "Generate a script for a 60-second YouTube Short explaining the 40% recurring commission structure of GHL."
     ]
   },
   {
-    title: "Hyper-Personalized Outreach: Using Gemini AI to Recruit High-Value Referrals",
-    summary: "Learn how to move beyond generic templates. Use Gemini to analyze potential leads and craft high-converting, personalized messages that position GoHighLevel as the specific solution to their unique business challenges.",
+    title: "Hyper-Personalized Outreach: Using AI to Recruit High-Value Referrals",
+    summary: "Learn how to move beyond generic templates. Use AI to analyze potential leads and craft high-converting, personalized messages that position GoHighLevel as the specific solution to their unique business challenges.",
     prompts: [
       "Analyze this company's website description: [Insert Text]. Identify their top 3 potential marketing inefficiencies and write a personalized email introducing GoHighLevel as the solution.",
       "Draft a DM for an agency owner. Reference a generic pain point like 'manual lead follow-up' and explain how GHL's AI features could automate that specific workflow for their niche.",
@@ -31,27 +31,27 @@ const blogIdeas = [
   },
   {
     title: "5 AI Automations Every GoHighLevel User Needs to Implement Today",
-    summary: "A practical 'Quick Wins' guide. Demonstrates how to use the GHL API with Google AI Studio to automate database reactivation and smart lead responses.",
+    summary: "A practical 'Quick Wins' guide. Demonstrates how to use automation to facilitate smart lead responses and database reactivation.",
     prompts: [
-      "Outline a GoHighLevel workflow that triggers a Gemini AI response when a lead asks a complex question via SMS.",
+      "Outline a GoHighLevel workflow that triggers an AI-powered response when a lead asks a complex question via SMS.",
       "Write a 'Database Reactivation' email sequence for a local gym niche that uses AI personalization to increase conversion by 20%.",
-      "Explain how to use Zapier to connect Google AI Studio (Gemini) to GoHighLevel for automated review responses."
+      "Explain how to use Zapier to connect AI models to GoHighLevel for automated review responses."
     ]
   },
   {
     title: "Recruiting Agency Owners: The Psychological Trigger of 'The AI-Efficiency' Dream",
     summary: "A deep dive into sales psychology. Learn how to pitch GoHighLevel not as a tool, but as the foundation for an agency that runs itself using AI.",
     prompts: [
-      "Analyze the top 5 pain points of agency owners in 2024 and map them to GoHighLevel + AI solutions.",
+      "Analyze the top 5 pain points of agency owners and map them to GoHighLevel + AI solutions.",
       "Write a persuasive sales page headline and sub-headline for an affiliate landing page focusing on 'Freedom through AI Automation'.",
-      "Create a 'Day in the Life' story of an agency owner who switched to GHL + Gemini and cut their workload by 70%."
+      "Create a 'Day in the Life' story of an agency owner who switched to GHL and cut their workload by 70% using automation."
     ]
   },
   {
-    title: "Beyond Chatbots: Using Gemini AI for Predictive Analytics in GoHighLevel",
-    summary: "Advanced content for tech-savvy affiliates. Discusses using AI to predict client churn and optimize ad spend within the GHL dashboard.",
+    title: "Beyond Chatbots: Using AI for Predictive Analytics in GoHighLevel",
+    summary: "Advanced content for tech-savvy affiliates. Discusses using data science to predict client churn and optimize ad spend within the GHL dashboard.",
     prompts: [
-      "Explain in simple terms how an agency can use Gemini AI to analyze GoHighLevel CRM data to predict which leads are most likely to close.",
+      "Explain in simple terms how an agency can use AI to analyze GoHighLevel CRM data to predict which leads are most likely to close.",
       "Generate a technical tutorial outline for setting up an AI-driven dashboard within a GHL sub-account.",
       "Write a comparison article: 'Standard CRM vs. AI-Enhanced GHL: Why the Gap is Growing'."
     ]
@@ -99,7 +99,7 @@ const BlogStrategies: React.FC = () => {
                 <div className="lg:w-3/5 bg-slate-900/60 rounded-3xl p-8 border border-white/5 relative shadow-inner">
                   <h4 className="text-[10px] font-black text-cyan-500 uppercase tracking-[0.3em] mb-6 flex items-center gap-3">
                     <div className="w-10 h-[1px] bg-cyan-500/30"></div>
-                    GEMINI AI CORE PROMPTS
+                    ELITE AI PROMPTS
                   </h4>
                   <div className="space-y-6">
                     {idea.prompts.map((prompt, pIdx) => (

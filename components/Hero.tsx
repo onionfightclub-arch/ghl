@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl text-slate-400 max-w-xl leading-relaxed font-medium">
-              GoHighLevel is the vessel. <span className="text-white font-bold">Gemini AI</span> is the engine. Join the elite network transforming agencies into autonomous wealth machines.
+              GoHighLevel is the vessel. <span className="text-white font-bold">Advanced AI</span> is the engine. Join the elite network transforming agencies into autonomous wealth machines.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-6 pt-4">

@@ -7,14 +7,14 @@ const steps = [
     color: "text-cyan-400",
     glow: "shadow-cyan-400/50",
     title: "Secure Node",
-    description: "Integrate with our elite affiliate network and activate your high-level dashboard and AI workspace."
+    description: "Integrate with our elite affiliate network and activate your high-level dashboard and advanced automation workspace."
   },
   {
     number: "02",
     color: "text-blue-400",
     glow: "shadow-blue-400/50",
     title: "Synthesize Content",
-    description: "Launch the AI Lab to engineer hyper-personalized campaigns tailored to your target niche's DNA."
+    description: "Leverage proprietary AI frameworks to engineer hyper-personalized campaigns tailored to your target niche's DNA."
   },
   {
     number: "03",
