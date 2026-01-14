@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered GoHighLevel Affiliate Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #020617;
+            color: #f8fafc;
+        }
+        .futuristic-bg {
+            background: radial-gradient(circle at 50% -20%, #1e1b4b 0%, #020617 100%);
+        }
+        .glass-dark {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .neon-border-blue {
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.1);
+        }
+        .neon-text-cyan {
+            text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+        }
+        .neon-text-purple {
+            text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+        }
+        .cyber-grid {
+            background-image: linear-gradient(rgba(34, 211, 238, 0.05) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(34, 211, 238, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes slideUpFade {
+            from {
+                opacity: 0;
+                transform: translateY(30px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        .animate-reveal {
+            animation: slideUpFade 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes borderGlow {
+            0% { border-color: rgba(34, 211, 238, 0.2); }
+            50% { border-color: rgba(168, 85, 247, 0.5); }
+            100% { border-color: rgba(34, 211, 238, 0.2); }
+        }
+        .animate-glow-border {
+            animation: borderGlow 4s linear infinite;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+<body class="futuristic-bg cyber-grid">
+    <div id="root"></div>
+</body>
+</html>
