@@ -7,7 +7,9 @@ export const generateMarketingCopy = async (
   targetAudience: string, 
   goal: string
 ): Promise<GeneratedCopy> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+  // Use a safe check for the environment variable
+  const apiKey = typeof process !== 'undefined' ? process.env.API_KEY : '';
+  const ai = new GoogleGenAI({ apiKey: apiKey || '' });
   
   const prompt = `Create a high-converting marketing campaign for promoting GoHighLevel to ${targetAudience} in the ${niche} niche. 
   The goal is: ${goal}. 
