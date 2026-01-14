@@ -37,6 +37,10 @@ const Navbar: React.FC = () => {
             Process
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
           </a>
+          <a href="#blog-strategies" className="hover:text-cyan-400 transition-colors relative group">
+            Strategies
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
+          </a>
           <a href="#contact" className="hover:text-cyan-400 transition-colors relative group">
             Contact
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
